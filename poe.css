@@ -1,0 +1,475 @@
+body{
+	margin: 0 auto;
+	
+
+
+}
+
+.fixedwidth{
+	margin: 0 auto;
+	width: 920px;
+	border-color: black;
+	border-style: solid;
+
+}
+
+
+#container{padding: 0;
+	background-image: url("images/header.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+    margin: 0px auto;
+    width: 1000px;
+	height: 3000px;
+	}
+
+.break{
+	margin: 0;
+	clear: both;
+}
+
+#login{
+float:left;margin: 0;
+border-color: black;
+border-style: solid;
+}
+#login ul{
+margin: 0;
+padding: 0;
+
+}
+#login li{
+
+	font-size: 12px;
+	padding: 7px 0 0 10px;
+	margin: 0;
+	float: left;
+	list-style: none;
+}
+
+#playfree{
+	float: right;
+border-color: black;
+border-style: solid;
+font-size: 10px;
+margin: 60px 30px 40px 40px ;
+padding: 2px 5px 2px 5px;
+
+}
+
+#navbarleft{
+	
+float:left;
+margin: 0 auto;
+
+}
+#navbarleft ul{
+	
+margin: 0;
+padding: 0;
+
+}
+
+#navbarleft li{
+	z-index: -1;
+	position: relative;
+	left: 40px;
+     border-style: solid;
+     border-color: white;
+	font-size: 20px;
+	padding: 5px 30px 5px 35px;
+	margin-top: 15px;
+	
+
+	float: left;
+	list-style: none;
+
+}
+
+#navbarright{
+float:left;
+margin: 0 auto;
+
+}
+#navbarright ul{
+margin: 0;
+padding: 0;
+
+}
+
+#navbarright li{
+	position: relative;
+	left: 150px;
+     border-style: solid;
+     border-color: white;
+	font-size: 20px;
+	padding: 5px 30px 5px 30px;
+	margin-top: 15px;
+	
+
+	float: left;
+	list-style: none;
+
+}
+
+/*HEADER CSS */
+
+/*content LEFT CSS*/
+
+#newspic{
+	border-style: solid;
+	border-color: black;
+	margin: 2px 0 0 0;
+
+width: 99%;
+
+padding: 0;
+}
+
+#word1{
+
+	font-size: 22px;
+	border-style: solid;
+	border-color: black;
+padding: 10px;
+	margin: 0;
+	float: left;
+}
+ 
+  h3{border-color: black;
+border-style: solid;
+  	padding-left:30px;margin: 0;
+  	padding: 0;
+  	}
+
+#news1{
+	padding-bottom: 3px;
+	width: 99%;
+	float: left;
+	margin: 0;
+	padding-left:  3px;
+	border-style: solid;
+	border-color: black;
+	
+}
+
+.date{border-color: black;
+border-style: solid;
+border-style: solid;
+	border-color: black;
+	float:right;
+}
+.spannews{
+margin: 0;
+border-color: black;
+border-style: solid;
+float: left;
+clear: both;
+}
+
+#news2{
+	padding-bottom: 3px;
+	width: 99%;
+	float: left;
+	margin-top: 10px;
+	padding-left:  3px;
+	border-style: solid;
+	border-color: black;
+	
+}
+
+#news3{
+	padding-bottom: 3px;
+	width: 99%;
+	float: left;
+	margin-top: 10px;
+	padding-left:  3px;
+	border-style: solid;
+	border-color: black;
+	
+}
+
+#archive{
+
+border-color: black;
+border-style: solid;
+margin: 0;
+float: left;
+width: 99%;
+}
+
+#awords{
+	clear: both;
+	padding: 3px;
+float: left;
+border-color: black;
+border-style: solid;
+}
+
+#sub{
+
+	padding: 3px;
+float: right;
+border-color: black;
+border-style: solid;
+margin-bottom: 15px;
+}
+
+
+
+/*CONTENT RIGHT CSS */
+
+#deal{
+border-color: black;
+border-style: solid;
+	padding: 3px;
+margin:0;
+float: right;
+
+
+}
+
+#contentleft{
+border-color: red;
+border-style: solid;
+margin: 0;
+padding: 0;
+width: 64%;
+}
+
+#contentright{
+
+float: right;
+border-color: green;
+border-style: solid;
+margin: 0;
+padding: 0;
+width: 35%;
+
+}
+
+#alienpic{
+	border-color: green;
+border-style: solid;
+float: right;
+padding: 0;
+margin:0;
+}
+
+#upevents{
+border-color: green;
+border-style: solid;
+float: right;
+width: 87%;
+margin-top: 15px;
+}
+
+#ev{
+font-size: 30px;
+
+}
+
+#race1{
+border-color: green;
+border-style: solid;
+width: 87%;
+
+float: right;
+margin-top: 10px;
+}
+
+.racehead{
+font-size: 20px;
+font-weight: bold;
+float: left;
+}
+
+.raceinfo{
+
+	float: left;
+}
+
+.racetimer{
+
+	float: left;
+}
+
+#race2{
+border-color: green;
+border-style: solid;
+width: 87%;
+
+float: right;
+margin-top: 10px;
+}
+
+.racehead{
+font-size: 20px;
+font-weight: bold;
+float: left;
+}
+
+.raceinfo{
+
+	float: left;
+}
+
+.racetimer{
+
+	float: left;
+}
+
+#race3{
+border-color: green;
+border-style: solid;
+width: 87%;
+
+float: right;
+margin-top: 10px;
+}
+
+.racehead{
+font-size: 20px;
+font-weight: bold;
+float: left;
+}
+
+.raceinfo{
+
+	float: left;
+}
+
+.racetimer{
+
+	float: left;
+}
+
+#lsdiv{
+border-color: green;
+border-style: solid;
+float: right;
+width: 87%;
+margin-top: 10px;
+}
+
+#lsname{
+font-size: 30px;
+
+}
+
+#stream1{
+	float: right;
+}
+
+#streamtitle{
+	float: left;
+}
+#views{
+
+	float: right;
+
+}
+
+#name{
+	float: left;
+}
+
+
+
+#footer{
+	border-color: green;
+border-style: solid;
+padding-right: 0px;
+	margin-right: 0px;
+	margin-bottom: -100px;
+	position: relative;
+	right: 21px;
+	top: -30px;
+}
+
+#footerdiv{
+ 	
+	
+border-color: blue;
+border-style: solid;
+margin-top: -15px;
+
+
+ }
+
+#list1{
+	margin-left: -25px;
+float: left;
+}
+
+#list1 ul{
+	list-style: none;
+}
+
+#list1 li{
+	padding: 3px;
+}
+
+#list2{
+margin-left: -25px;
+float: left;
+}
+#list2 ul{
+	list-style: none;
+}
+#list2 li{
+	padding: 3px;
+}
+
+
+
+#list3{margin-right: 120px;
+	margin-left: -20px;
+float: left;
+}
+#list3 ul{
+	list-style: none;
+}
+#list3 li{
+	padding: 3px;
+}
+
+
+#list4{
+	margin-left: 70px;
+float: left;
+}
+#list4 ul{
+	list-style: none;
+}
+#list4 li{
+	padding: 3px;
+}
+
+
+#list5{
+	margin-left: -25px;
+float: left;
+}
+#list5 ul{
+	list-style: none;
+}
+#list5 li{
+	padding: 3px;
+}
+
+
+#list6{
+	margin-left: -25px;
+float: left;
+}
+#list6 ul{
+	list-style: none;
+}
+#list6 li{
+	padding: 3px;
+}
+
+
+hr{clear: both;}
+
