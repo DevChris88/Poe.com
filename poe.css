@@ -1,21 +1,49 @@
 body{
-	margin: 0 auto;
-	
+	background-image: url("poeimages/backgroundpoe.jpg");
+	background-position: top;
+		margin: 0 auto;
+	background-repeat: no-repeat;
+	background-color: black;
+
+}
+a:link{
+	text-decoration: none;
+}
+
+ 
+a.loglink:link{
+	text-decoration: none;
+	color: #0CABE5;
+
+}
+
+a.loglink:visited{
+	text-decoration: none;
+	color: #0CABE5;
+
+}
+
+
+
+a.loglink:hover {
+color: #00D2FF;
+
 
 
 }
+
 
 .fixedwidth{
 	margin: 0 auto;
 	width: 920px;
-	border-color: black;
-	border-style: solid;
+	
 
 }
 
 
-#container{padding: 0;
-	background-image: url("images/header.png");
+#container{	padding: 0;
+    
+	background-image: url("poeimages/header.png");
 	background-position: top center;
 	background-repeat: no-repeat;
     margin: 0px auto;
@@ -29,33 +57,38 @@ body{
 }
 
 #login{
-float:left;margin: 0;
-border-color: black;
-border-style: solid;
+float:left;
+margin: 0;
+
 }
 #login ul{
+	
 margin: 0;
 padding: 0;
 
 }
 #login li{
-
+	
+font-family: sans-serif;
 	font-size: 12px;
 	padding: 7px 0 0 10px;
-	margin: 0;
+	margin: 4px ;
 	float: left;
 	list-style: none;
 }
 
 #playfree{
+	font-family: sans-serif;
+	border:1px solid black;
 	float: right;
-border-color: black;
-border-style: solid;
+background-color: #214301;
+color: #AEFF03;
 font-size: 10px;
 margin: 60px 30px 40px 40px ;
 padding: 2px 5px 2px 5px;
 
 }
+
 
 #navbarleft{
 	
@@ -71,6 +104,8 @@ padding: 0;
 }
 
 #navbarleft li{
+	color: #FEAB44;
+	background-color: #581504;
 	z-index: -1;
 	position: relative;
 	left: 40px;
@@ -78,7 +113,7 @@ padding: 0;
      border-color: white;
 	font-size: 20px;
 	padding: 5px 30px 5px 35px;
-	margin-top: 15px;
+	margin-top: 22px;
 	
 
 	float: left;
@@ -98,13 +133,16 @@ padding: 0;
 }
 
 #navbarright li{
+	color: #FEAB44;
+	background-color: #581504;
+	z-index: -1;
 	position: relative;
 	left: 150px;
      border-style: solid;
      border-color: white;
 	font-size: 20px;
-	padding: 5px 30px 5px 30px;
-	margin-top: 15px;
+	padding: 5px 30px 5px 29px;
+	margin-top: 22px;
 	
 
 	float: left;
@@ -116,112 +154,132 @@ padding: 0;
 
 /*content LEFT CSS*/
 
+
+
+ 
 #newspic{
-	border-style: solid;
-	border-color: black;
+
+	
 	margin: 2px 0 0 0;
 
 width: 99%;
 
 padding: 0;
 }
-
+#worddiv{margin:0;
+	padding: 0;
+	clear: left;
+}
 #word1{
-
+color: #FFD08C;
 	font-size: 22px;
-	border-style: solid;
-	border-color: black;
+	
 padding: 10px;
 	margin: 0;
 	float: left;
 }
- 
-  h3{border-color: black;
-border-style: solid;
+
+
+h3:link{
+	color: #FFD08C;
+}
+h3:visited{
+	color: #FFD08C;
+}
+h3:hover{
+	color: white;
+}
+
+  h3{
+  	
+  	color: #FFD08C;
   	padding-left:30px;margin: 0;
-  	padding: 0;
+  	padding: 3px;
   	}
 
 #news1{
-	padding-bottom: 3px;
+	clear: left;
+	background-color: #0C0B0B;
+	padding-bottom: 1px;
 	width: 99%;
 	float: left;
 	margin: 0;
-	padding-left:  3px;
-	border-style: solid;
-	border-color: black;
+	padding-left:  1px;
 	
+	border: solid 1.5px #585858;
 }
 
-.date{border-color: black;
-border-style: solid;
-border-style: solid;
-	border-color: black;
+.date{
+	color: #585858;
+	
 	float:right;
+	font-size: 14px;
 }
 .spannews{
+	font-size: 13px;
+	font-family: sans-serif;
+	color: #A38D6D;
 margin: 0;
-border-color: black;
-border-style: solid;
+padding:3px;
 float: left;
 clear: both;
 }
 
 #news2{
-	padding-bottom: 3px;
+	
+	padding-bottom: 1px;
 	width: 99%;
 	float: left;
 	margin-top: 10px;
-	padding-left:  3px;
-	border-style: solid;
-	border-color: black;
+	padding-left:  1px;
+	background-color: #0C0B0B;
+
+	border: solid 1.5px #585858;
 	
 }
 
 #news3{
-	padding-bottom: 3px;
+	background-color: #0C0B0B;
+	padding-bottom: 1px;
 	width: 99%;
 	float: left;
 	margin-top: 10px;
-	padding-left:  3px;
-	border-style: solid;
-	border-color: black;
+	padding-left:  1px;
+	
+	border: solid 1.5px #585858;
 	
 }
 
 #archive{
 
-border-color: black;
-border-style: solid;
+
 margin: 0;
 float: left;
 width: 99%;
 }
 
 #awords{
+	color: #585858;
 	clear: both;
 	padding: 3px;
 float: left;
-border-color: black;
-border-style: solid;
+
 }
 
 #sub{
-
+color: #585858;
 	padding: 3px;
 float: right;
-border-color: black;
-border-style: solid;
+
 margin-bottom: 15px;
 }
 
 
 
-/*CONTENT RIGHT CSS */
+/*CONTENT RIGHT CSS--------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #deal{
-border-color: black;
-border-style: solid;
+
 	padding: 3px;
 margin:0;
 float: right;
@@ -230,35 +288,35 @@ float: right;
 }
 
 #contentleft{
-border-color: red;
-border-style: solid;
+	
+	background-color: black;
+	
+
 margin: 0;
 padding: 0;
 width: 64%;
 }
 
 #contentright{
-
+background-color: black;
 float: right;
-border-color: green;
-border-style: solid;
+
 margin: 0;
 padding: 0;
-width: 35%;
+width: 36%;
 
 }
 
 #alienpic{
-	border-color: green;
-border-style: solid;
+	
 float: right;
 padding: 0;
 margin:0;
 }
 
 #upevents{
-border-color: green;
-border-style: solid;
+	color: #FFD08C;
+
 float: right;
 width: 87%;
 margin-top: 15px;
@@ -270,8 +328,9 @@ font-size: 30px;
 }
 
 #race1{
-border-color: green;
-border-style: solid;
+background-color: #0C0B0B;
+
+	border: solid 1.5px #585858;
 width: 87%;
 
 float: right;
@@ -279,24 +338,29 @@ margin-top: 10px;
 }
 
 .racehead{
+	color: #FFBD0E;
 font-size: 20px;
 font-weight: bold;
 float: left;
+padding: 3px 0 0 5px;
 }
 
 .raceinfo{
-
+	padding: 0px 0 0 5px;
+color: #A38D6D;
 	float: left;
 }
 
 .racetimer{
-
+	padding: 0px 0 3px 5px;
+color: #585858;
 	float: left;
 }
 
 #race2{
-border-color: green;
-border-style: solid;
+background-color: #0C0B0B;
+
+	border: solid 1.5px #585858;
 width: 87%;
 
 float: right;
@@ -310,18 +374,16 @@ float: left;
 }
 
 .raceinfo{
-
+color: #A38D6D;
 	float: left;
 }
 
-.racetimer{
 
-	float: left;
-}
 
 #race3{
-border-color: green;
-border-style: solid;
+background-color: #0C0B0B;
+
+	border: solid 1.5px #585858;
 width: 87%;
 
 float: right;
@@ -345,14 +407,14 @@ float: left;
 }
 
 #lsdiv{
-border-color: green;
-border-style: solid;
+
 float: right;
 width: 87%;
 margin-top: 10px;
 }
 
 #lsname{
+	color: #FFD08C;
 font-size: 30px;
 
 }
@@ -361,24 +423,25 @@ font-size: 30px;
 	float: right;
 }
 
-#streamtitle{
-	float: left;
+.streamtitle{
+	color: #FFFFB5;
+	
 }
 #views{
-
+color: #7A6A2A;
 	float: right;
 
 }
 
 #name{
+	color: #7A6A2A;
 	float: left;
 }
 
 
 
 #footer{
-	border-color: green;
-border-style: solid;
+	
 padding-right: 0px;
 	margin-right: 0px;
 	margin-bottom: -100px;
@@ -390,8 +453,7 @@ padding-right: 0px;
 #footerdiv{
  	
 	
-border-color: blue;
-border-style: solid;
+
 margin-top: -15px;
 
 
@@ -403,10 +465,12 @@ float: left;
 }
 
 #list1 ul{
+	color: #585858;
 	list-style: none;
 }
 
 #list1 li{
+
 	padding: 3px;
 }
 
@@ -415,6 +479,7 @@ margin-left: -25px;
 float: left;
 }
 #list2 ul{
+	color: #585858;
 	list-style: none;
 }
 #list2 li{
@@ -428,6 +493,7 @@ float: left;
 float: left;
 }
 #list3 ul{
+	color: #585858;
 	list-style: none;
 }
 #list3 li{
@@ -440,6 +506,7 @@ float: left;
 float: left;
 }
 #list4 ul{
+	color: #585858;
 	list-style: none;
 }
 #list4 li{
@@ -452,6 +519,7 @@ float: left;
 float: left;
 }
 #list5 ul{
+	color: #585858;
 	list-style: none;
 }
 #list5 li{
@@ -464,6 +532,7 @@ float: left;
 float: left;
 }
 #list6 ul{
+	color: #585858;
 	list-style: none;
 }
 #list6 li{
@@ -473,3 +542,19 @@ float: left;
 
 hr{clear: both;}
 
+#abcd{
+	color: #585858;
+}
+
+a.racehead2:link{
+	color: #FFBD0E;;
+}
+
+a.racehead2:visited{
+	color: #FFBD0E;
+}
+
+a.racehead2:hover{
+	color: #FFCD4B;
+
+}
